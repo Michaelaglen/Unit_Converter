@@ -1,0 +1,6 @@
+1. Follow design spec.
+2. Generate all conversion when the user clicks "Convert".
+3. Round the numbers down to three decimal places.
+
+Figma link: https://www.figma.com/design/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion?node-id=0-1&p=f&t=yUeQTqDCtlfvF9qV-0
+Project hints: https://scrimba.com/project-hints

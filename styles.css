@@ -1,0 +1,142 @@
+body {
+   font-family: "Inter", sans-serif;
+   background-color: black;
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   align-items: center;        /* vertical */
+   justify-content: center;    /* horizontal */
+}
+
+#card {
+    width: 550px;
+    height: 729px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 33px;
+}
+
+h2 {
+    color: #5A537B;
+    font-weight: 500;
+}
+
+p {
+    color: #353535;
+}
+
+#top-section {
+    background-color: #6943FF;
+    width: 550px;
+    height: 285px;
+    margin: 0;
+    padding: 0;
+}
+
+#number {
+    display: block;
+    margin-top: 30px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 117px;
+    height: 83px;
+    font-size: 58px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    background-color: #6943FF;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+
+/* remove default styling from input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button:active {
+  box-shadow: 0 1px #B295FF;
+  transform: translateY(1px);
+}
+
+button {
+    display: block;
+    margin-top: 26.77px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 117px;
+    height: 42px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    color: #3D3D3D;
+    
+}
+
+#mid-section {
+    background-color: #F4F4F4;
+    width: 550px;
+    height: auto;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+#length-card {
+    margin-top: 36px;
+    width: 500px;
+    height: 108.57px;
+    background-color: #FFFFFF;
+}
+
+#length {
+    color: #353535;
+    font-size: 14px;
+}
+
+#volume-card {
+    margin-top: 23.43px;
+    width: 500px;
+    height: 108.57px;
+    background-color: #FFFFFF;
+}
+
+#volume {
+    color: #353535;
+    font-size: 14px;
+}
+
+#mass-card {
+    margin-top: 23.43px;
+    margin-bottom: 35.43px;
+    width: 500px;
+    height: 108.57px;
+    background-color: #FFFFFF;
+}
+
+#mass {
+    color: #353535;
+    font-size: 14px;
+}
+
